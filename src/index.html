@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./output.css" />
+    <title>Frontend Mentor | Product preview card component</title>
+  </head>
+
+  <body class="bg-cream font-montserrat ">
+    <div class=" my-auto px-16 py-9 md:flex md:justify-center lg:px-52 lg:py-28">
+      <div class="rounded-xl">
+        <img
+          class="rounded-t-lg w-full object-cover md:hidden"
+          src="images/image-product-mobile.jpg"
+          alt=""
+        />
+        <img class="rounded-tl-xl rounded-bl-xl w-96 object-cover hidden md:block h-full" src="images/image-product-desktop.jpg" alt="">
+      </div>
+      <div class="bg-white p-4 rounded-b-lg md:rounded-tr-xl md:rounded-br-xl md:flex-col md:justify-center md:items-center md:p-10 lg:w-96">
+        <h1
+          class="font-medium text-xs pb-3 tracking-widest uppercase text-darkGrayish lg:text-sm"
+        >
+          Perfume
+        </h1>
+        <h1 class="font-fraunces font-extrabold text-3xl mb-4 ">
+          Gabrielle Essence Eau De Parfum
+        </h1>
+        <p class="font-medium text-darkGrayish pb-4 ">
+          A floral, solar and voluptuous interpretation composed by Olivier
+          Polge, Perfumer-Creator for the House of CHANEL.
+        </p>
+        <div class="pb-4 flex items-center justify-start">
+          <span class="font-fraunces text-3xl font-extrabold text-cyan pr-2"
+            >$149.99</span
+          >
+          <span
+            class="text-darkBlue text-sm font-medium line-through decoration-darkGrayish ml-4"
+          >
+            $169.99</span
+          >
+        </div>
+        <div
+          class="bg-cyan hover:bg-green-900 text-white p-5 rounded-lg text-sm font-bold w-full my-3 text-center"
+        >
+          <a href=""
+            ><img
+              class="w-6 pr-2 inline-block"
+              src="images/icon-cart.svg"
+              alt=""
+            />
+            Add to Cart</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <!--footer-->
+    <footer class="py-5 w-full text-sm md:text-lg text-center bg-white font-montserrat flex-col">
+      
+      <p class="mb-2">
+        Challenge by
+        <a
+          class="text-cyan font-fraunces"
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          >Frontend Mentor</a
+        >.</p
+      >
+      <p
+        >Coded by
+        <a class="text-cyan font-fraunces" href="#">Tamaraekiye Hobobo</a
+        >.</p
+      >
+    </footer>
+  </body>
+</html>
